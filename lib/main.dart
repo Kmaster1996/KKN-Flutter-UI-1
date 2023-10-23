@@ -20,21 +20,18 @@ class Docker extends StatelessWidget {
             Row(
               children: <Widget>[
                 //Advertiser
-                Text('Hackathon time! Join us for the Docker AI/ML Hackathon now through November 7th. Sign up now')
+                Text(
+                    'Hackathon time!')
               ],
             ),
             Row(
               children: <Widget>[
                 //Menu and option
                 Column(
-                  children: <Widget>[
-                    Text('Menu')
-                  ],
+                  children: <Widget>[Text('Menu')],
                 ),
                 Column(
-                  children: <Widget>[
-                    Text('Sign in')
-                  ],
+                  children: <Widget>[Text('Sign in')],
                 )
               ],
             ),
@@ -48,6 +45,7 @@ class Docker extends StatelessWidget {
             Row(
               children: <Widget>[
                 //Price
+                Text('Price')
               ],
             )
           ],
