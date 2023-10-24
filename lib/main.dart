@@ -16,7 +16,7 @@ class Docker extends StatelessWidget {
           title: const Text('Docker'),
         ),
         body: Container(
-          color: Colors.lightBlue,
+          color: Color.fromARGB(255, 209, 213, 214),
           child: Column(
             children: <Widget>[
               Container(
@@ -36,7 +36,7 @@ class Docker extends StatelessWidget {
                   Padding(
                     padding: const EdgeInsets.all(4.0),
                     child: Container(
-                      color: Colors.amber,
+                      color: Color.fromARGB(255, 153, 210, 228),
                       width: 230,
                       height: 30,
                       child: Row(
@@ -62,7 +62,7 @@ class Docker extends StatelessWidget {
                     ),
                   ),
                   Container(
-                    color: Colors.pink,
+                    color: const Color.fromARGB(255, 30, 135, 233),
                     width: 130,
                     height: 30,
                     child: Row(
@@ -98,7 +98,7 @@ class Docker extends StatelessWidget {
                   Padding(
                     padding: const EdgeInsets.all(8.0),
                     child: Container(
-                        color: Color.fromARGB(255, 67, 132, 216),
+                        color: Color.fromARGB(255, 151, 186, 231),
                         height: 400,
                         width: 80,
                         child: Text('Price1')),
@@ -106,7 +106,7 @@ class Docker extends StatelessWidget {
                   Padding(
                     padding: const EdgeInsets.all(8.0),
                     child: Container(
-                        color: Color.fromARGB(255, 67, 132, 216),
+                        color: Color.fromARGB(255, 151, 186, 231),
                         height: 400,
                         width: 80,
                         child: Text('Price2')),
@@ -114,7 +114,7 @@ class Docker extends StatelessWidget {
                   Padding(
                     padding: const EdgeInsets.all(8.0),
                     child: Container(
-                        color: Color.fromARGB(255, 67, 132, 216),
+                        color: Color.fromARGB(255, 151, 186, 231),
                         height: 400,
                         width: 80,
                         child: Text('Price3')),
@@ -122,7 +122,7 @@ class Docker extends StatelessWidget {
                   Padding(
                     padding: const EdgeInsets.all(8.0),
                     child: Container(
-                        color: Color.fromARGB(255, 67, 132, 216),
+                        color: Color.fromARGB(255, 151, 186, 231),
                         height: 400,
                         width: 80,
                         child: Text('Price4')),
